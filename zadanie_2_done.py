@@ -55,8 +55,7 @@ def turtlesim_pose_callback(data):
             x_g = route[index][0]
             y_g = route[index][1]
         else:
-            new_vel.linear.x = 0
-            new_vel.angular.z = 0
+            index = 0
 
 if __name__== "__main__":
 	global new_vel
